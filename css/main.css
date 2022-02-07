@@ -2219,7 +2219,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top: 16.2rem;
+    padding-top: 10.2rem;
     padding-bottom: 9rem;
     background-color: #39b54a;
     color: #010507;
@@ -2243,7 +2243,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .about-stats {
     text-align: center;
-    margin-left: 15%;
+    /* margin-left: 15%; */
+    margin:auto;
 }
 
 .stats__col {
@@ -2338,7 +2339,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
     .s-about {
-        padding-top: 12rem;
+        padding-top: 10rem;
     }
     .about-desc {
         font-size: 1.9rem;
