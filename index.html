@@ -64,7 +64,6 @@
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
     
                 <ul class="header-nav__social">
                     <li>
@@ -432,16 +431,19 @@
                     <fieldset>
     
                     <div class="form-field">
-                        <input name="contactName" type="text" id="name" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        <input name="name" type="text" id="name" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactEmail" type="email" id="email" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                        <input name="email" type="email" id="email" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactSubject" type="text" id="subject" placeholder="Subject" value="" class="full-width">
+                        <input name="subject" type="text" id="subject" placeholder="Subject" value="" class="full-width">
                     </div>
                     <div class="form-field">
-                        <textarea name="contactMessage" id="message" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        <textarea name="message" id="message" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <input type="file" accept="image/*" capture="camera" id="cameraInput">
                     </div>
                     <div class="form-field">
                         <button class="full-width btn--primary" type="submit">Submit</button>
@@ -458,10 +460,7 @@
                     </fieldset>
                 </form>
 
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wron.
-                </div> 
+                <!-- contact-warning --> 
             
                 <!-- contact-success -->
                 <div class="message-success">
